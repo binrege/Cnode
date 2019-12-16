@@ -15,7 +15,7 @@ const isProduction = process.env.NODE_ENV === 'production'
 const service = axios.create()
 
 // 接口基础路径
-service.defaults.baseURL = isProduction ? 'https://douban-api.uieee.com/v2/movie' : '/api'
+service.defaults.baseURL = isProduction ? ' https://cnodejs.org/api/v1' : '/api'
     // 超时时间
 service.defaults.timeout = 10000
     // 请求头类型
